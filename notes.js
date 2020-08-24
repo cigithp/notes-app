@@ -7,6 +7,7 @@ const getNotes = function() {
     return 'Your notes...'
 }
 
+
 const addNote = function(title, body) {
     const notes = loadNotes()
     const dupes = notes.filter(function (note) {
